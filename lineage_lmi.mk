@@ -17,6 +17,9 @@ $(call inherit-product, device/xiaomi/lmi/device.mk)
 # Private keys
 -include vendor/evolution-priv/keys/keys.mk
 
+# Set Boot Animination Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := lineage_lmi
 PRODUCT_DEVICE := lmi
 PRODUCT_MANUFACTURER := Xiaomi
